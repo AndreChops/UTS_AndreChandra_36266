@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profile_background"
+    tools:context=".ProfileActivity">
+
+
+    <TextView
+        android:id="@+id/Referensi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REFERENSI : "
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kelas"
+        app:layout_constraintVertical_bias="0.098" />
+
+    <TextView
+        android:id="@+id/kelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kelas"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NIM"
+        app:layout_constraintVertical_bias="0.016" />
+
+    <TextView
+        android:id="@+id/NIM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/NIM"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nama_mahasiswa"
+        app:layout_constraintVertical_bias="0.014" />
+
+    <TextView
+        android:id="@+id/nama_mahasiswa"
+        android:layout_width="237dp"
+        android:layout_height="29dp"
+        android:ems="10"
+        android:minHeight="48dp"
+        android:text="@string/nama"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.437" />
+
+    <ImageView
+        android:id="@+id/profilepicture"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        app:layout_constraintBottom_toTopOf="@+id/nama_mahasiswa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.672"
+        app:srcCompat="@drawable/profilepicture" />
+
+    <TextView
+        android:id="@+id/referensi_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="https://www.myinstants.com/index/id/"
+        android:textColorLink="#FB8A8A"
+        android:autoLink="web"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Referensi" />
+
+    <TextView
+        android:id="@+id/referensi_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="https://www.youtube.com/c/CodinginFlow"
+        android:textColorLink="#FB8A8A"
+        android:autoLink="web"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/referensi_1" />
+
+    <TextView
+        android:id="@+id/referensi_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="https://stackoverflow.com/"
+        android:textColorLink="#FB8A8A"
+        android:autoLink="web"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/referensi_2" />
+
+    <TextView
+        android:id="@+id/referensi_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="https://developer.android.com/docs"
+        android:textColorLink="#FB8A8A"
+        android:autoLink="web"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/referensi_3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

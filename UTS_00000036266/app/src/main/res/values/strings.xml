@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UTS_00000036266</string>
+
+    <string name="profile">Profile</string>
+    <string name="library">Library</string>
+    <string name="play">Play</string>
+    <string name="nama">Andre Chandra Putra</string>
+    <string name="NIM">00000036266</string>
+    <string name="kelas">IF570-EL</string>
+</resources>
